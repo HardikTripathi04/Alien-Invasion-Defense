@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="author" content="Akhilesh Yadav">
     <title>Alien Invasion Defense</title>
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.6.0/css/all.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
     <link rel="stylesheet" href="Alien.css">
     <audio id="backgroundMusic" src="background-music.wav" loop></audio>
@@ -30,9 +31,9 @@
     <canvas id="gameCanvas"></canvas>
     <div id="header">
         <div id="gameInfo">
-            <i class="fas fa-star"></i> <span id="score">0</span> | 
-            <i class="fas fa-level-up-alt"></i> <span id="level">1</span> | 
-            <i class="fas fa-heart"></i> <span id="lives">3</span>
+            <i class="fa-sharp fa-solid fa-star"></i> <span id="score">0</span> | 
+            <i class="fa-regular fa-turn-up"></i> <span id="level">1</span> | 
+            <i class="fa-duotone fa-solid fa-circle-heart"></i> <span id="lives">3</span>
              <!-- New span elements to display power-up timers -->  
 
       <span id="healthBoostTimer"></span>  
@@ -62,7 +63,7 @@
     <button id="startButton"><i class="fas fa-play"></i> Start Game</button>
     <button id="restartButton" style="display: none"><i class="fas fa-redo"></i> Restart Game</button>
     <div id="gameOver">
-        <i class="fas fa-exclamation-circle"></i> Game Over<br /><span id="finalScore"></span>
+        <i class="fa-solid fa-heart-circle-exclamation"></i> Game Over<br /><span id="finalScore"></span>//
     </div>
     <div id="highScore">
          High Score: <span id="highScoreValue">0</span>
